@@ -5,7 +5,8 @@ advancementFile = "advancements.json"
 hiddenAdvancements = ["nether/all_effects", "adventure/arbalistic"]
 
 with open(advancementFile, "r") as orig:
-    advancements = json.load(orig)["data"]
+    parsed = json.load(orig)
+    advancements = parsed["data"]
 
     def getCategories():
         return list(advancements.keys())
@@ -17,6 +18,7 @@ with open(advancementFile, "r") as orig:
     def getAdvancement(category, advancement):
         assert(advancement in getAdvancements(category))
         return advancements[category][advancement]
+
+    def getMeta():
+        return parsed["meta"]
     
-test = getAdvancement("husbandry", "breed_an_animal")
-print(test)

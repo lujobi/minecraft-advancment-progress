@@ -1,5 +1,7 @@
 {
-    "version": "1.16_20w14",
+    "meta": {
+        "version": "1.16_20w14"
+    },
     "data": {
         "adventure": {
             "": {
@@ -282,14 +284,14 @@
         },
         "nether": {
             "all_effects": {
-                "actual_requirements": "Have all of these 26 effects applied to the player at the same time. This is a hidden advancement, meaning that it can be viewed by the player only after completing it.",
+                "actual_requirements": "Have all of these 26 effects applied to the player at the same time. This is a hidden advancement, meaning that it can be viewed by the player only after completing it: \n\n Absorption, Bad Omen, Blindness, Conduit Power, Dolphin's Grace, Fire Resistance, Glowing, Haste, Hero of the Village, Hunger, Invisibility, Jump Boost, Levitation, Mining Fatigue, Nausea, Night Vision, Poison, Regeneration, Resistance, Slow Falling, Slowness, Speed, Strength, Water Breathing, Weakness, Wither.",
                 "advancement": "How Did We Get Here?",
                 "in_game_description": "Have every effect applied at the same time",
                 "parent": "A Furious Cocktail",
                 "rewards": "1,000 experience"
             },
             "all_potions": {
-                "actual_requirements": "Have all of these 13 potion effects applied to the player at the same time.",
+                "actual_requirements": "Have all of these 13 potion effects applied to the player at the same time. \n\n Fire resistance, Invisibility, Jump boost, Night vision, Poison, Regeneration, Resistance, Slow Falling, Slowness, Speed, Strength, Water breathing, Weakness",
                 "advancement": "A Furious Cocktail",
                 "in_game_description": "Have every potion effect applied at the same time",
                 "parent": "Local Brewery",
