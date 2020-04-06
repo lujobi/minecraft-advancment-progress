@@ -47,12 +47,10 @@ def progress(adv):
     missing = []
     eaten_foods = adv['criteria']
     count = 0
-    print(eaten_foods)
     for food in foods:
         if (f'{food}' not in eaten_foods):
             missing.append(food)
         else:
             count += 1
     msg = 'Progress: [%s/%s], still missing: %s' % (count, len(foods), missing)
-    print(msg)
     return msg

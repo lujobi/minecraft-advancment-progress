@@ -1,6 +1,7 @@
 {
     "meta": {
-        "version": "1.16_20w14"
+        "minecraft-version": "1.16_20w14a", 
+        "github": "https://github.com/lujobi/minecraft-advancment-progress"
     },
     "data": {
         "adventure": {

@@ -6,6 +6,7 @@ import textwrap
 
 import progress
 import advancement_utils as adv_utils
+from progress_functions import versions as function_versions
 
 preferredWidth = 120
 
@@ -52,8 +53,23 @@ def formatFancy(array, verbose=False):
     return msg
 
 
+def checkVersions():
+    version = adv_utils.getMeta()['minecraft-version']
+    for key, v in function_versions.items():
+        if v != version:
+            return key
+    return True
+
 def main(own_file, verbose):
+    print("Welcome using the my Advancement Progress Tool")
     print(adv_utils.getMeta())
+
+    if not checkVersions() == True:
+        print(colored("versions of functions in %s.py don\'t match" % (checkVersions()), 'red'))
+        return
+
+    print(colored("Version check successful \n ", 'green'))
+
     with open(own_file) as file:
         own = json.load(file)
         result = progress.check(own)
@@ -66,7 +82,6 @@ def main(own_file, verbose):
             len(result['notStarted']), 
             len(result['finished']) + len(result['inProgress'])+len(result['notStarted'])
         ), 'blue'))
-        # print(progress.check(own))
 
 
 if __name__ == '__main__':
