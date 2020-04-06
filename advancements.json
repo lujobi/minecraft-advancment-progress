@@ -1,0 +1,491 @@
+{
+    "version": "1.16_20w14",
+    "data": {
+        "adventure": {
+            "": {
+                "actual_requirements": null,
+                "advancement": "Monster Hunter",
+                "in_game_description": "Hit something with a trident",
+                "parent": "throw_trident",
+                "rewards": null
+            },
+            "adventuring_time": {
+                "actual_requirements": "Visit all of these 42 biomes. Other biomes may also be visited, but are ignored for the advancement.",
+                "advancement": "Adventuring Time",
+                "in_game_description": "Discover every biome",
+                "parent": "Sweet dreams",
+                "rewards": "500 experience"
+            },
+            "arbalistic": {
+                "actual_requirements": "This is a hidden advancement, meaning that it can be viewed by the player only after completing it.",
+                "advancement": "Arbalistic",
+                "in_game_description": "Kill five unique mobs with one crossbow shot",
+                "parent": "Ol' Betsy",
+                "rewards": "85 experience"
+            },
+            "bullseye": {
+                "actual_requirements": "Shoot the center of a target with a projectile.",
+                "advancement": "Bullseye [upcoming: JE 1.16]",
+                "in_game_description": "Hit the bullseye of a Target block with an arrow",
+                "parent": "Take Aim",
+                "rewards": null
+            },
+            "hero_of_the_village": {
+                "actual_requirements": null,
+                "advancement": "Hero of the Village",
+                "in_game_description": "Successfully defend a village from a raid",
+                "parent": "Voluntary Exile",
+                "rewards": "100 experience"
+            },
+            "honey_block_slide": {
+                "actual_requirements": "Collide on a horizontal side of a honey block when in air.",
+                "advancement": "Sticky Situation",
+                "in_game_description": "Jump into a Honey Block to break your fall",
+                "parent": "Adventure",
+                "rewards": null
+            },
+            "kill_a_mob": {
+                "actual_requirements": "Kill one of these 25 mobs. In Java Edition 1.16, elder guardians, ender dragons, endermites, hoglins, piglins, vexes, withers, and zoglins can also be killed for this advancement. Other mobs may be killed, but are ignored for the advancement.",
+                "advancement": "Monster Hunter",
+                "in_game_description": "Kill any hostile monster",
+                "parent": "Adventure",
+                "rewards": null
+            },
+            "kill_all_mobs": {
+                "actual_requirements": "Kill each of these 25 mobs. In Java Edition 1.16, elder guardians, ender dragons, endermites, hoglins, piglins, vexes, withers and zoglins are also required for the advancement. Other mobs may be killed, but are ignored for the advancement.",
+                "advancement": "Monsters Hunted",
+                "in_game_description": "Kill one of every hostile monster",
+                "parent": "Monster Hunter",
+                "rewards": "100 experience"
+            },
+            "ol_betsy": {
+                "actual_requirements": null,
+                "advancement": "Ol' Betsy",
+                "in_game_description": "Shoot a crossbow",
+                "parent": "Adventure",
+                "rewards": null
+            },
+            "root": {
+                "actual_requirements": "Kill any entity, or be killed by any entity.",
+                "advancement": "Adventure",
+                "in_game_description": "Adventure, exploration, and combat",
+                "parent": null,
+                "rewards": null
+            },
+            "shoot_arrow": {
+                "actual_requirements": "Using a bow or a crossbow, shoot an entity with an arrow, tipped arrow or spectral arrow.",
+                "advancement": "Take Aim",
+                "in_game_description": "Shoot something with an arrow",
+                "parent": "Monster Hunter",
+                "rewards": null
+            },
+            "sniper_duel": {
+                "actual_requirements": "Kill a skeleton with a projectile while being at least 50 blocks away horizontally.",
+                "advancement": "Sniper Duel",
+                "in_game_description": "Kill a Skeleton from at least 50 meters away",
+                "parent": "Take Aim",
+                "rewards": "50 experience"
+            },
+            "summon_iron_golem": {
+                "actual_requirements": "Summon an iron golem.",
+                "advancement": "Hired Help",
+                "in_game_description": "Summon an Iron Golem to help defend a village",
+                "parent": "What a Deal!",
+                "rewards": null
+            },
+            "totem_of_undying": {
+                "actual_requirements": null,
+                "advancement": "Postmortal",
+                "in_game_description": "Use a Totem of Undying to cheat death",
+                "parent": "Monster Hunter",
+                "rewards": null
+            },
+            "trade": {
+                "actual_requirements": "Take an item from a villager or wandering trader's trading output slot, and put it in your inventory.",
+                "advancement": "What a Deal!",
+                "in_game_description": "Successfully trade with a Villager",
+                "parent": "Adventure",
+                "rewards": null
+            },
+            "two_birds_one_arrow": {
+                "actual_requirements": null,
+                "advancement": "Two Birds, One Arrow",
+                "in_game_description": "Kill two Phantoms with a piercing arrow",
+                "parent": "Ol' Betsy",
+                "rewards": "65 experience"
+            },
+            "very_very_frightening": {
+                "actual_requirements": "Hit a villager with lightning created by a Trident with the Channeling enchantment.",
+                "advancement": "Very Very Frightening",
+                "in_game_description": "Strike a Villager with lightning",
+                "parent": "A Throwaway Joke",
+                "rewards": null
+            },
+            "whos_the_pillager_now": {
+                "actual_requirements": "Kill a pillager with a crossbow.",
+                "advancement": "Who's the Pillager Now?",
+                "in_game_description": "Give a Pillager a taste of their own medicine",
+                "parent": "Ol' Betsy",
+                "rewards": null
+            }
+        },
+        "end": {
+            "dragon_breath": {
+                "actual_requirements": "Have a bottle of dragon's breath in your inventory.",
+                "advancement": "You Need a Mint",
+                "in_game_description": "Collect dragon's breath in a glass bottle",
+                "parent": "Free the End",
+                "rewards": null
+            },
+            "dragon_egg": {
+                "actual_requirements": "Have a dragon egg in your inventory.",
+                "advancement": "The Next Generation",
+                "in_game_description": "Hold the Dragon Egg",
+                "parent": "Free the End",
+                "rewards": null
+            },
+            "elytra": {
+                "actual_requirements": "Have a pair of elytra in your inventory.",
+                "advancement": "Sky's the Limit",
+                "in_game_description": "Find an Elytra",
+                "parent": "The City at the End of the Game",
+                "rewards": null
+            },
+            "enter_end_gateway": {
+                "actual_requirements": "Throw an ender pearl through or walk into an End gateway.",
+                "advancement": "Remote Getaway",
+                "in_game_description": "Escape the island",
+                "parent": "Free the End",
+                "rewards": null
+            },
+            "find_end_city": {
+                "actual_requirements": "Enter an End city.",
+                "advancement": "The City at the End of the Game",
+                "in_game_description": "Go on in, what could happen?",
+                "parent": "Remote Getaway",
+                "rewards": null
+            },
+            "kill_dragon": {
+                "actual_requirements": "Kill the ender dragon.",
+                "advancement": "Free the End",
+                "in_game_description": "Good luck",
+                "parent": "The End",
+                "rewards": null
+            },
+            "levitate": {
+                "actual_requirements": "Move a vertical distance of 50 blocks with the levitation effect applied.",
+                "advancement": "Great View From Up Here",
+                "in_game_description": "Levitate up 50 blocks from the attacks of a Shulker",
+                "parent": "The City at the End of the Game",
+                "rewards": "50 experience"
+            },
+            "respawn_dragon": {
+                "actual_requirements": "Summon an ender dragon using ender crystals.",
+                "advancement": "The End... Again...",
+                "in_game_description": "Respawn the Ender Dragon",
+                "parent": "Free the End",
+                "rewards": null
+            },
+            "root": {
+                "actual_requirements": "Enter the End dimension.",
+                "advancement": "The End",
+                "in_game_description": "Or the beginning?",
+                "parent": null,
+                "rewards": null
+            }
+        },
+        "husbandry": {
+            "balanced_diet": {
+                "actual_requirements": "Eat each of these 39 foods. Other foods are ignored for this advancement.",
+                "advancement": "A Balanced Diet",
+                "in_game_description": "Eat everything that is edible, even if it's not good for you",
+                "parent": "A Seedy Place",
+                "rewards": "100 experience"
+            },
+            "break_diamond_hoe": {
+                "actual_requirements": "Exhaust the durability of a diamond hoe, breaking it.",
+                "advancement": "Serious Dedication",
+                "in_game_description": "Completely use up a diamond hoe and then reevaluate your life choices",
+                "parent": "A Seedy Place",
+                "rewards": "100 experience"
+            },
+            "bred_all_animals": {
+                "actual_requirements": "Breed pairs of each of these 15 mobs. In Java Edition 1.16, hoglins are also required for this advancement. A trader llama does not count as a llama. Other breedable mobs, if any, are ignored for the advancement.",
+                "advancement": "Two by Two",
+                "in_game_description": "Breed all the animals!",
+                "parent": "The Parrots and the Bats",
+                "rewards": "100 experience"
+            },
+            "breed_an_animal": {
+                "actual_requirements": null,
+                "advancement": "The Parrots and the Bats",
+                "in_game_description": "Breed two animals together",
+                "parent": "Husbandry",
+                "rewards": null
+            },
+            "complete_catalogue": {
+                "actual_requirements": null,
+                "advancement": "A Complete Catalogue",
+                "in_game_description": "Tame all cat variants!",
+                "parent": "Best Friends Forever",
+                "rewards": "50 experience"
+            },
+            "fishy_business": {
+                "actual_requirements": "Use a fishing rod to catch a fish.",
+                "advancement": "Fishy Business",
+                "in_game_description": "Catch a fish",
+                "parent": "Husbandry",
+                "rewards": null
+            },
+            "plant_seed": {
+                "actual_requirements": "Plant one of these 5 seeds. Crops and plants without seeds are ignored for this advancement.",
+                "advancement": "A Seedy Place",
+                "in_game_description": "Plant a seed and watch it grow",
+                "parent": "Husbandry",
+                "rewards": null
+            },
+            "root": {
+                "actual_requirements": "Eat anything that can be eaten.",
+                "advancement": "Husbandry",
+                "in_game_description": "The world is full of friends and food",
+                "parent": null,
+                "rewards": null
+            },
+            "safely_harvest_honey": {
+                "actual_requirements": null,
+                "advancement": "Bee Our Guest",
+                "in_game_description": "Use a Campfire to collect Honey from a Beehive using a Bottle without aggravating the bees",
+                "parent": "Husbandry",
+                "rewards": null
+            },
+            "silk_touch_nest": {
+                "actual_requirements": null,
+                "advancement": "Total Beelocation",
+                "in_game_description": "Move a Bee Nest, with 3 bees inside, using Silk Touch",
+                "parent": "Husbandry",
+                "rewards": null
+            },
+            "tactical_fishing": {
+                "actual_requirements": "Use a water bucket on a fish mob to get a bucket of fish.",
+                "advancement": "Tactical Fishing",
+                "in_game_description": "Catch a fish... without a fishing rod!",
+                "parent": "Fishy Business",
+                "rewards": null
+            },
+            "tame_an_animal": {
+                "actual_requirements": null,
+                "advancement": "Best Friends Forever",
+                "in_game_description": "Tame an animal",
+                "parent": "Husbandry",
+                "rewards": null
+            }
+        },
+        "nether": {
+            "all_effects": {
+                "actual_requirements": "Have all of these 26 effects applied to the player at the same time. This is a hidden advancement, meaning that it can be viewed by the player only after completing it.",
+                "advancement": "How Did We Get Here?",
+                "in_game_description": "Have every effect applied at the same time",
+                "parent": "A Furious Cocktail",
+                "rewards": "1,000 experience"
+            },
+            "all_potions": {
+                "actual_requirements": "Have all of these 13 potion effects applied to the player at the same time.",
+                "advancement": "A Furious Cocktail",
+                "in_game_description": "Have every potion effect applied at the same time",
+                "parent": "Local Brewery",
+                "rewards": "100 experience"
+            },
+            "brew_potion": {
+                "actual_requirements": "Pick up an item from a brewing stand potion slot. This does not need to be a potion. Water bottles or even empty bottles also trigger this advancement.",
+                "advancement": "Local Brewery",
+                "in_game_description": "Brew a potion",
+                "parent": "Into Fire",
+                "rewards": null
+            },
+            "create_beacon": {
+                "actual_requirements": "Be within a 20xx20x14 cuboid centered on a beacon block when it realizes it has become powered.",
+                "advancement": "Bring Home the Beacon",
+                "in_game_description": "Construct and place a Beacon",
+                "parent": "Withering Heights",
+                "rewards": null
+            },
+            "create_full_beacon": {
+                "actual_requirements": "Be within a 20x20x14 cuboid centered on a beacon block when it realizes it is being powered by a size 4 pyramid.",
+                "advancement": "Beaconator",
+                "in_game_description": "Bring a beacon to full power",
+                "parent": "Bring Home the Beacon",
+                "rewards": null
+            },
+            "fast_travel": {
+                "actual_requirements": "Use the Nether to travel between 2 points in the Overworld with a minimum horizontal distance of 7000 blocks between each other, about 875 blocks in the Nether.",
+                "advancement": "Subspace Bubble",
+                "in_game_description": "Use the Nether to travel 7 km in the Overworld",
+                "parent": "Nether",
+                "rewards": "100 experience"
+            },
+            "find_fortress": {
+                "actual_requirements": "Enter a Nether fortress.",
+                "advancement": "A Terrible Fortress",
+                "in_game_description": "Break your way into a Nether Fortress",
+                "parent": "Nether",
+                "rewards": null
+            },
+            "get_wither_skull": {
+                "actual_requirements": "Have a wither skeleton skull in your inventory.",
+                "advancement": "Spooky Scary Skeleton",
+                "in_game_description": "Obtain a Wither Skeleton's skull",
+                "parent": "A Terrible Fortress",
+                "rewards": null
+            },
+            "obtain_blaze_rod": {
+                "actual_requirements": "Have a blaze rod in your inventory.",
+                "advancement": "Into Fire",
+                "in_game_description": "Relieve a Blaze of its rod",
+                "parent": "A Terrible Fortress",
+                "rewards": null
+            },
+            "return_to_sender": {
+                "actual_requirements": "Kill a ghast using a ghast fireball.",
+                "advancement": "Return to Sender",
+                "in_game_description": "Destroy a Ghast with a fireball",
+                "parent": "Nether",
+                "rewards": "50 experience"
+            },
+            "root": {
+                "actual_requirements": "Enter the Nether dimension.",
+                "advancement": "Nether",
+                "in_game_description": "Bring summer clothes",
+                "parent": null,
+                "rewards": null
+            },
+            "summon_wither": {
+                "actual_requirements": "Be within a 100.9x100.9x103.5 cuboid centered on the Wither when it is spawned.",
+                "advancement": "Withering Heights",
+                "in_game_description": "Summon the Wither",
+                "parent": "Spooky Scary Skeleton",
+                "rewards": null
+            },
+            "uneasy_alliance": {
+                "actual_requirements": "Kill a Ghast while you are in the Overworld.",
+                "advancement": "Uneasy Alliance",
+                "in_game_description": "Rescue a Ghast from the Nether, bring it safely home to the Overworld... and then kill it",
+                "parent": "Return to Sender",
+                "rewards": "100 experience"
+            }
+        },
+        "story": {
+            "cure_zombie_villager": {
+                "actual_requirements": "Throw a splash potion of weakness at a zombie villager and give it a golden apple (by facing the zombie and pressing the use key with a golden apple in your hand), then wait for the villager to be cured.",
+                "advancement": "Zombie Doctor",
+                "in_game_description": "Weaken and then cure a Zombie Villager",
+                "parent": "We Need to Go Deeper",
+                "rewards": null
+            },
+            "deflect_arrow": {
+                "actual_requirements": "Deflect any projectile with a shield.",
+                "advancement": "Not Today, Thank You",
+                "in_game_description": "Deflect an arrow with a shield",
+                "parent": "Suit Up",
+                "rewards": null
+            },
+            "enchant_item": {
+                "actual_requirements": null,
+                "advancement": "Enchanter",
+                "in_game_description": "Enchant an item at an Enchanting Table",
+                "parent": "Diamonds!",
+                "rewards": null
+            },
+            "enter_the_end": {
+                "actual_requirements": "Enter the End dimension.",
+                "advancement": "The End?",
+                "in_game_description": "Enter the End Portal",
+                "parent": "Eye Spy",
+                "rewards": null
+            },
+            "enter_the_nether": {
+                "actual_requirements": "Enter the Nether dimension.",
+                "advancement": "We Need to Go Deeper",
+                "in_game_description": "Build, light and enter a Nether Portal",
+                "parent": "Ice Bucket Challenge",
+                "rewards": null
+            },
+            "follow_ender_eye": {
+                "actual_requirements": "Enter a stronghold.",
+                "advancement": "Eye Spy",
+                "in_game_description": "Follow an Eye of Ender",
+                "parent": "We Need to Go Deeper",
+                "rewards": null
+            },
+            "form_obsidian": {
+                "actual_requirements": "Have a block of obsidian in your inventory.",
+                "advancement": "Ice Bucket Challenge",
+                "in_game_description": "Form and mine a block of Obsidian",
+                "parent": "Hot Stuff",
+                "rewards": null
+            },
+            "iron_tools": {
+                "actual_requirements": "Have an iron pickaxe in your inventory.",
+                "advancement": "Isn't It Iron Pick",
+                "in_game_description": "Upgrade your pickaxe",
+                "parent": "Acquire Hardware",
+                "rewards": null
+            },
+            "lava_bucket": {
+                "actual_requirements": "Have a lava bucket in your inventory.",
+                "advancement": "Hot Stuff",
+                "in_game_description": "Fill a bucket with lava",
+                "parent": "Acquire Hardware",
+                "rewards": null
+            },
+            "mine_diamond": {
+                "actual_requirements": "Have a diamond in your inventory.",
+                "advancement": "Diamonds!",
+                "in_game_description": "Acquire diamonds",
+                "parent": "Isn't It Iron Pick",
+                "rewards": null
+            },
+            "mine_stone": {
+                "actual_requirements": "Have cobblestone in your inventory.",
+                "advancement": "Stone Age",
+                "in_game_description": "Mine stone with your new pickaxe",
+                "parent": "Minecraft",
+                "rewards": null
+            },
+            "obtain_armor": {
+                "actual_requirements": "Have any type of iron armor in your inventory.",
+                "advancement": "Suit Up",
+                "in_game_description": "Protect yourself with a piece of iron armor",
+                "parent": "Acquire Hardware",
+                "rewards": null
+            },
+            "root": {
+                "actual_requirements": "Have a crafting table in your inventory.",
+                "advancement": "Minecraft",
+                "in_game_description": "The heart and story of the game",
+                "parent": null,
+                "rewards": null
+            },
+            "shiny_gear": {
+                "actual_requirements": "Have any type of diamond armor in your inventory.",
+                "advancement": "Cover Me With Diamonds",
+                "in_game_description": "Diamond armor saves lives",
+                "parent": "Diamonds!",
+                "rewards": null
+            },
+            "smelt_iron": {
+                "actual_requirements": "Have an iron ingot in your inventory.",
+                "advancement": "Acquire Hardware",
+                "in_game_description": "Smelt an iron ingot",
+                "parent": "Getting an Upgrade",
+                "rewards": null
+            },
+            "upgrade_tools": {
+                "actual_requirements": "Have a stone pickaxe in your inventory.",
+                "advancement": "Getting an Upgrade",
+                "in_game_description": "Construct a better pickaxe",
+                "parent": "Stone Age",
+                "rewards": null
+            }
+        }
+    }
+}
