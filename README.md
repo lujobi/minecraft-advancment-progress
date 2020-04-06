@@ -1,6 +1,6 @@
 # Check Advancement Progress
 
-A tool to track your progress in the advancements.
+A tool to track your progress in the advancements. In Minecraft 1.16. *(currently 1.16_20w14a)*
 
 **Works only with python 3.x**
 
@@ -11,3 +11,5 @@ To start the app locally for development, do the following:
 3. and activate it: `source venv/bin/activate`
 4. install the requirements inside the virtualenv: `pip install -r requirements.txt`
 5. start inside the virtualenv: `python check.py /path/to/advancement_file` 
+
+For help use `python check.py -h` 
