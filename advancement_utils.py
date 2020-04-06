@@ -1,12 +1,12 @@
 import json
 
-advancementFile = "advancements.json"
+advancementFile = 'advancements.json'
 
-hiddenAdvancements = ["nether/all_effects", "adventure/arbalistic"]
+hiddenAdvancements = ['nether/all_effects', 'adventure/arbalistic']
 
-with open(advancementFile, "r") as orig:
+with open(advancementFile, 'r') as orig:
     parsed = json.load(orig)
-    advancements = parsed["data"]
+    advancements = parsed['data']
 
     def getCategories():
         return list(advancements.keys())
@@ -20,5 +20,5 @@ with open(advancementFile, "r") as orig:
         return advancements[category][advancement]
 
     def getMeta():
-        return parsed["meta"]
+        return parsed['meta']
     

@@ -1,56 +1,32 @@
-version = "1.16_20w14a"
+version = '1.16_20w14a'
 
-foods = [
-    "apple",
-    "baked_potato",
-    "beetroot",
-    "beetroot soup",
-    "bread",
-    "carrot",
-    "chorus_fruit",
-    "cooked_beef",
-    "cooked_chicken",
-    "cooked_cod",
-    "cooked_mutton",
-    "cooked_porkchop",
-    "cooked_rabbit",
-    "cooked_salmon",
-    "cookie",
-    "dried_kelp",
-    "enchanted_golden_apple",
-    "golden_apple",
-    "golden_carrot",
-    "honey_bottle",
-    "melon",
-    "mushroom_stew",
-    "poisonous_potato",
-    "potato",
-    "pufferfish",
-    "pumpkin_pie",
-    "rabbit_stew",
-    "raw_beef",
-    "raw_chicken",
-    "raw_cod",
-    "raw_mutton",
-    "raw_porkchop",
-    "raw_rabbit",
-    "raw_salmon",
-    "rotten_flesh",
-    "spider_eye",
-    "suspicious_stew",
-    "sweet_berries",
-    "tropical_fish"
+mobs = [
+    'bee',
+    'cat',
+    'chicken',
+    'cow',
+    'fox',
+    'horse',
+    'llama',
+    'mooshroom',
+    'ocelot',
+    'panda',
+    'pig',
+    'rabbit',
+    'sheep',
+    'turtle',
+    'wolf'
 ]
 
 
 def progress(adv):
     missing = []
-    eaten_foods = adv["criteria"]
+    bred_mobs = adv['criteria']
     count = 0
-    for food in foods:
-        if (f'minecraft:{food}' not in eaten_foods):
-            missing.append(food)
+    for mob in mobs:
+        if (f'minecraft:{mob}' not in bred_mobs):
+            missing.append(mob)
         else:
             count += 1
-    msg = "Progress: [%s/%s], still missing: %s" % (count, len(foods), missing)
+    msg = 'Progress: [%s/%s], still missing: %s' % (count, len(mobs), missing)
     return msg
