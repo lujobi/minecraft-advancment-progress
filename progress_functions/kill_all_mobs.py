@@ -2,7 +2,7 @@ version = '1.16_20w14a'
 
 mobs = [
     'blaze',
-    'cave Spider',
+    'cave_spider',
     'creeper',
     'drowned',
     'enderman',
