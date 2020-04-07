@@ -17,7 +17,7 @@ def formatFinished(array):
     return msg
 
 
-def formatFancy(array, verbose=False):
+def formatFancy(title, array, verbose=False):
     prefix = '       '
     wrapper = textwrap.TextWrapper(
         initial_indent=prefix, width=preferredWidth, subsequent_indent=' '*len(prefix))
@@ -48,7 +48,7 @@ def formatFancy(array, verbose=False):
 
         return res
 
-    msg = '\n\nIn Progress %s: \n  -%s' % (len(array),
+    msg = '\n\n%s %s: \n  -%s' % (title, len(array),
                                            '\n\n  -'.join(map(format, array)))
     return msg
 
@@ -74,8 +74,8 @@ def main(own_file, verbose):
         own = json.load(file)
         result = progress.check(own)
         print(colored(formatFinished(result['finished']), 'green'))
-        print(colored(formatFancy(result['notStarted'], verbose), 'red'))
-        print(colored(formatFancy(result['inProgress'], True), 'yellow'))
+        print(colored(formatFancy('Not started', result['notStarted'], verbose), 'red'))
+        print(colored(formatFancy('In progress', result['inProgress'], True), 'yellow'))
         print(colored('\nOverall progress: %s finished, %s in progress, %s not started of total %s' % (
             len(result['finished']), 
             len(result['inProgress']), 
