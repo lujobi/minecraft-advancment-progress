@@ -42,7 +42,7 @@ biomes = [
     'warm_ocean',
     'wooded_badlands_plateau',
     'wooded_hills',
-    'wooded-mountains'
+    'wooded_mountains'
 ]
 
 
